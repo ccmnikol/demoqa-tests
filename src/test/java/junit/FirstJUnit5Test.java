@@ -1,15 +1,11 @@
 package junit;
 
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 public class FirstJUnit5Test {
+
     @Test
     void firstTest() {
-
-    }
-
-    @Test
-    void secondTest() {
-
+        System.out.println("Это тест");
     }
 }
